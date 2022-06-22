@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PredStart"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:id="@+id/backPredAct">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnGo"
+            android:layout_width="278dp"
+            app:cornerRadius="16dp"
+            android:layout_height="wrap_content"
+            android:text="go"
+            android:background="@drawable/gardient"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/strlLftSloj"
+            android:src="@drawable/strelka"
+            android:rotation="180"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/choseSloj"
+            android:background="@drawable/gardient"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Low"
+            android:layout_margin="25dp"
+            android:textSize="30sp"/>
+        <ImageView
+            android:id="@+id/strlRightSloj"
+            android:src="@drawable/strelka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/strlekaLeft"
+            android:src="@drawable/strelka"
+            android:rotation="180"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/choseWeapon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/unitazz"/>
+        <ImageView
+            android:id="@+id/strelkaRight"
+            android:src="@drawable/strelka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
